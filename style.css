@@ -37,9 +37,12 @@ header nav div{
 .collapse  {
     position: absolute;
     top: 100%;
-    width: 90%;
+    width: 70%;
     transition: none;
   
+}
+.modal-header{
+    background-color: white;
 }
 
 .logo{
@@ -338,4 +341,64 @@ background: none;
     margin-left: 0;
     padding: 0.5rem;
    
+}
+.menu{
+    background:rgb(46, 46, 46);
+   padding:55px 8px ;
+}
+.menu ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 18px;
+
+
+}
+.menu ul{
+   width: 180%;
+   margin-left: 167px;
+}
+.menu ul li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.menu ul h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.menu ul li a:hover{
+    color: #ffa500;
+}
+.menu p{
+
+    margin-left: 200px;
+}
+.cols{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+    margin-left: 200px;
+    max-width: 60%;
+}
+.modal-content{
+    font-family: Arial, Helvetica, sans-serif;        
+    color: #999999;
+    background-color: #000000be;
+}
+.menu hr{
+   height: 2px;
+   width: 70%;
+   margin: 20px auto;
+   color: rgb(212, 194, 194);   
+   margin-bottom: 28px;
+}
+.menu p{
+    color: #ffffff;
+    text-align: center;
+}
+.menu p span{
+    color: #ffa500;
 }
