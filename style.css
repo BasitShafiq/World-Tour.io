@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
 *{  
     font-family: 'Nunito', sans-serif;
     margin:0; padding:0;
@@ -5,6 +7,7 @@
     text-transform: capitalize;
     outline: none; border:none;
     text-decoration: none;
+    transition: all .2s linear; 
 }
 *body{
     scroll-behavior: smooth;
@@ -13,11 +16,11 @@ header{
     position: fixed;
     top:0; left: 0; right:0;
     z-index: 1000;
+    height: 70px;
 }
 header nav div{
 
     background:rgb(46, 46, 46);
-    height: 63px;
     position: absolute;
     top: 0px;
 }
@@ -30,6 +33,15 @@ header nav div{
 .nav-link:hover{
     color:  #ffa500;
 }
+
+.collapse  {
+    position: absolute;
+    top: 100%;
+    width: 90%;
+    transition: none;
+  
+}
+
 .logo{
     font-weight: bolder;
     font-size: 2.5rem;
@@ -298,6 +310,8 @@ background: none;
 .gallery .box-container .box .content h3{
     margin-top: -32px;
     font-size: 1.5rem;
+    color: #ffa500;
+    font-weight: bold;
 
 }
 .gallery .box-container .box .content p{
@@ -311,17 +325,17 @@ background: none;
 }
 .gallery .box-container .box .content button{
    
-
-    
     background-color: #ffa500;
-margin: 4px 25px    ;
+    margin: 4px 25px    ;
     color: white;
 }
 .gallery .box-container .box .content button:hover{
     background-color: white;
     color: #ffa500;
 }
-
-
-
-
+.sign-up-form .btn{
+    width: 100%;
+    margin-left: 0;
+    padding: 0.5rem;
+   
+}
